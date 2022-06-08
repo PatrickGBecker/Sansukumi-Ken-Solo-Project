@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https:..fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <main>
+      <section class="player-section">
+        <img class="player-avatar" src="drawing of player avatar" alt="Illustration of an Edo or Meiji period Japanese person sitting peacefully"/>
+        <p class="player-wins">Player Wins: 0</p>
+        <button class="change-difficulty hidden">Change Difficulty</button>
+      </section>
+      <section class="game-section">
+        <header>
+          <h1>SANSUKUMI-KEN</h1>
+          <p>"Fist Games of the Three Who Fear One Another"</p>
+          <p>(Rock, Paper, Scissors)</p>
+          <h2 class="choose-difficulty">Choose Difficulty</h2>
+          <h2 class="choose-sign hidden">Choose Your Sign</h2>
+          <h2 class="winner-alert hidden">The "WINNER" Won This Round</h2>
+        </header>
+        <form class="traditional-weapons hidden">
+          <img class="rock-sign" src="" alt="Illustration of a Human fist" value="rock"/>
+          <img class="paper-sign" src="" alt="Illustration of a flattened human palm" value="paper"/>
+          <img class="scissors-sign" src="" alt="Illustration of a Human fist with index and middle finger extended outward" value="scissors"/>
+          <img class="snake-sign" src="" alt="Illustration of a Human hand in the shape of an open mouth" value="snake"/>
+          <img class="frog-sign" src="" alt="Illustration of a Human hand with fingers spread out" value="frog"/>
+        </form>
+        <form class="traditional-mode">
+          <h3>
+            <img class="traditional-signs" src="drawing of trad rules" alt="Illustration of a graph explaining rules. Rock beats scissors. Paper beats Rock. Scissors beat Paper."
+          </h3>
+        <form class="advanced-mode">
+          <h3>
+            <img class="advanced-signs" src="drawing of advanced rules" alt="Illustration of a graph explaining the rules. Scissors beat Paper & Snake. Paper beats Rock & Frog. Rock beats Paper & Snake. Snake beats Paper & Frog. Frog beats Scissors & Rock."
+          </h3>
+        </form>
+        <section class="winner-box hidden">
+          <div class="player-avatar"></div>
+          <div class="mogwai-avatar"></div>
+        </section>
+      </section>
+      <section class="mogwai-section">
+        <img class="mogwai-avatar" src="drawing of a mogwai" alt="Illustration of an Edo or Meiji period demon gesturing wildly"/>
+        <p class="mogwai-wins">Mogwai Wins: 0</p>
+      </section>
+    </main>
+  </body>
+  <script type="text/javascript" src="game.js"></script>
+  <script type= "text/javascript" src="player.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</html>
