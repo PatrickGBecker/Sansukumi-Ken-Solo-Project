@@ -30,7 +30,7 @@ Solidify and demonstrate your understanding of:
 - I still feel strong with the html and css.  I also like interacting with the DOM via query selectors and event listeners. I like that there is a general set path of logic to follow so it was easier for me to pick up on this concept.
 
 ### Visualization
-![gif](https://giphy.com/gifs/rock-paper-scissors-2mvUQJUEoH9Jl7B1K9/fullscreen)
+![gif](https://media.giphy.com/media/2mvUQJUEoH9Jl7B1K9/giphy.gif)
 
 ### Organizational Resources
 - https://turing-team-workflow.monday.com/boards/2777276678/views/63448111
